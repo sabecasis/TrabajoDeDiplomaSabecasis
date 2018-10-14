@@ -1,0 +1,473 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{6B20B001-7A00-4F18-8160-FF5133C43542}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <StartupObject>StockPresentacion.My.MyApplication</StartupObject>
+    <RootNamespace>StockPresentacion</RootNamespace>
+    <AssemblyName>StockPresentacion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>WindowsForms</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <PublishUrl>C:\Facultad\diploma\installerFinal\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>9</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <PublishWizardCompleted>true</PublishWizardCompleted>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>StockPresentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>StockPresentacion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestCertificateThumbprint>092D51ED3D72E3763212CE73812B4AE9F58FDDCC</ManifestCertificateThumbprint>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ManifestKeyFile>StockPresentacion_TemporaryKey.pfx</ManifestKeyFile>
+  </PropertyGroup>
+  <PropertyGroup>
+    <GenerateManifests>true</GenerateManifests>
+  </PropertyGroup>
+  <PropertyGroup>
+    <SignManifests>false</SignManifests>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Drawing" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Windows.Forms" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="BackupRestore.Designer.vb">
+      <DependentUpon>BackupRestore.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BackupRestore.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="BitacoraDeUsuario.Designer.vb">
+      <DependentUpon>BitacoraDeUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="BitacoraDeUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CambiarPassword.Designer.vb">
+      <DependentUpon>CambiarPassword.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CambiarPassword.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarMovimientosDeStock.Designer.vb">
+      <DependentUpon>ConsultarMovimientosDeStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarMovimientosDeStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarStockFaltante.Designer.vb">
+      <DependentUpon>ConsultarStockFaltante.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarStockFaltante.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ConsultarStockPorProducto.Designer.vb">
+      <DependentUpon>ConsultarStockPorProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ConsultarStockPorProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CreacionDB.Designer.vb">
+      <DependentUpon>CreacionDB.vb</DependentUpon>
+    </Compile>
+    <Compile Include="CreacionDB.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="EgresoDeStock.Designer.vb">
+      <DependentUpon>EgresoDeStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="EgresoDeStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarDepositos.Designer.vb">
+      <DependentUpon>GestionarDepositos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarDepositos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarDescuento.Designer.vb">
+      <DependentUpon>GestionarDescuento.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarDescuento.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarEmpleado.Designer.vb">
+      <DependentUpon>GestionarEmpleado.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarEmpleado.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarFamiliaDeProductos.Designer.vb">
+      <DependentUpon>GestionarFamiliaDeProductos.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarFamiliaDeProductos.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarGrupo.Designer.vb">
+      <DependentUpon>GestionarGrupo.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarGrupo.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarIdioma.Designer.vb">
+      <DependentUpon>GestionarIdioma.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarIdioma.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarInstanciasDeProducto.Designer.vb">
+      <DependentUpon>GestionarInstanciasDeProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarInstanciasDeProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarMarca.Designer.vb">
+      <DependentUpon>GestionarMarca.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarMarca.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarMoneda.Designer.vb">
+      <DependentUpon>GestionarMoneda.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarMoneda.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarPedidoDeReposicion.Designer.vb">
+      <DependentUpon>GestionarPedidoDeReposicion.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarPedidoDeReposicion.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarProducto.Designer.vb">
+      <DependentUpon>GestionarProducto.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarProducto.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarProveedores.Designer.vb">
+      <DependentUpon>GestionarProveedores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarProveedores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarRoles.Designer.vb">
+      <DependentUpon>GestionarRoles.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarRoles.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarSucursales.Designer.vb">
+      <DependentUpon>GestionarSucursales.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarSucursales.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GestionarUsuario.Designer.vb">
+      <DependentUpon>GestionarUsuario.vb</DependentUpon>
+    </Compile>
+    <Compile Include="GestionarUsuario.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IngresoDeStock.Designer.vb">
+      <DependentUpon>IngresoDeStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="IngresoDeStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="LogDeErrores.Designer.vb">
+      <DependentUpon>LogDeErrores.vb</DependentUpon>
+    </Compile>
+    <Compile Include="LogDeErrores.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Login.Designer.vb">
+      <DependentUpon>Login.vb</DependentUpon>
+    </Compile>
+    <Compile Include="Login.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="MovimientoDeStock.Designer.vb">
+      <DependentUpon>MovimientoDeStock.vb</DependentUpon>
+    </Compile>
+    <Compile Include="MovimientoDeStock.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaMultiIdioma.vb" />
+    <Compile Include="PantallaInicio.vb">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="PantallaInicio.Designer.vb">
+      <DependentUpon>PantallaInicio.vb</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="Validador.vb" />
+    <Compile Include="ValorizacionDeExistencias.Designer.vb">
+      <DependentUpon>ValorizacionDeExistencias.vb</DependentUpon>
+    </Compile>
+    <Compile Include="ValorizacionDeExistencias.vb">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="BackupRestore.resx">
+      <DependentUpon>BackupRestore.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="BitacoraDeUsuario.resx">
+      <DependentUpon>BitacoraDeUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CambiarPassword.resx">
+      <DependentUpon>CambiarPassword.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarMovimientosDeStock.resx">
+      <DependentUpon>ConsultarMovimientosDeStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarStockFaltante.resx">
+      <DependentUpon>ConsultarStockFaltante.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ConsultarStockPorProducto.resx">
+      <DependentUpon>ConsultarStockPorProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CreacionDB.resx">
+      <DependentUpon>CreacionDB.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="EgresoDeStock.resx">
+      <DependentUpon>EgresoDeStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarDepositos.resx">
+      <DependentUpon>GestionarDepositos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarDescuento.resx">
+      <DependentUpon>GestionarDescuento.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarEmpleado.resx">
+      <DependentUpon>GestionarEmpleado.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarFamiliaDeProductos.resx">
+      <DependentUpon>GestionarFamiliaDeProductos.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarGrupo.resx">
+      <DependentUpon>GestionarGrupo.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarIdioma.resx">
+      <DependentUpon>GestionarIdioma.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarInstanciasDeProducto.resx">
+      <DependentUpon>GestionarInstanciasDeProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarMarca.resx">
+      <DependentUpon>GestionarMarca.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarMoneda.resx">
+      <DependentUpon>GestionarMoneda.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarPedidoDeReposicion.resx">
+      <DependentUpon>GestionarPedidoDeReposicion.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarProducto.resx">
+      <DependentUpon>GestionarProducto.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarProveedores.resx">
+      <DependentUpon>GestionarProveedores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarRoles.resx">
+      <DependentUpon>GestionarRoles.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarSucursales.resx">
+      <DependentUpon>GestionarSucursales.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GestionarUsuario.resx">
+      <DependentUpon>GestionarUsuario.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IngresoDeStock.resx">
+      <DependentUpon>IngresoDeStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="LogDeErrores.resx">
+      <DependentUpon>LogDeErrores.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Login.resx">
+      <DependentUpon>Login.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="MovimientoDeStock.resx">
+      <DependentUpon>MovimientoDeStock.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="PantallaInicio.resx">
+      <DependentUpon>PantallaInicio.vb</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ComprobanteEgresoStock.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ComprobanteIngresoStock.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ComprobanteMovimientoStock.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="ComprobantePedidoStock.docx">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="StockPresentacion_TemporaryKey.pfx" />
+    <None Include="stock_db.bak">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ElementosTransversales\ElementosTransversales.vbproj">
+      <Project>{e13a8481-b82e-4ad7-b4d9-e53efe6c4785}</Project>
+      <Name>ElementosTransversales</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockControladorAccion\StockControladorAccion.vbproj">
+      <Project>{45a5894f-511a-4a0f-a639-58bc521031ab}</Project>
+      <Name>StockControladorAccion</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockControladorComando\StockControladorComando.vbproj">
+      <Project>{ed7850dc-18f2-4753-a536-82761be60bbe}</Project>
+      <Name>StockControladorComando</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockControlador\StockControlador.vbproj">
+      <Project>{5dd2e68f-9361-4084-98b3-b6528e6b9490}</Project>
+      <Name>StockControlador</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockModelo\StockModelo.vbproj">
+      <Project>{df4da45e-d72d-4b2e-827c-218eb6015857}</Project>
+      <Name>StockModelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Ayudaenlnea.html">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

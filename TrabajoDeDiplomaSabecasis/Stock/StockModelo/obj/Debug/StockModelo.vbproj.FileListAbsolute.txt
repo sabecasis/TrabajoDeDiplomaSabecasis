@@ -1,0 +1,8 @@
+C:\Facultad\diploma\Stock\StockModelo\bin\Debug\StockModelo.dll
+C:\Facultad\diploma\Stock\StockModelo\bin\Debug\StockModelo.pdb
+C:\Facultad\diploma\Stock\StockModelo\bin\Debug\StockModelo.xml
+C:\Facultad\diploma\Stock\StockModelo\obj\Debug\StockModelo.Resources.resources
+C:\Facultad\diploma\Stock\StockModelo\obj\Debug\StockModelo.vbproj.GenerateResource.Cache
+C:\Facultad\diploma\Stock\StockModelo\obj\Debug\StockModelo.dll
+C:\Facultad\diploma\Stock\StockModelo\obj\Debug\StockModelo.xml
+C:\Facultad\diploma\Stock\StockModelo\obj\Debug\StockModelo.pdb

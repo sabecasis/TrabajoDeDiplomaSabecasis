@@ -1,0 +1,17 @@
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\StockDatos.dll
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\StockDatos.pdb
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\StockDatos.xml
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\ElementosTransversales.dll
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\StockModelo.dll
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\ElementosTransversales.pdb
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\ElementosTransversales.xml
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\StockModelo.pdb
+C:\Facultad\diploma\Stock\StockDatos\bin\Debug\StockModelo.xml
+C:\Facultad\diploma\Stock\StockDatos\obj\Debug\StockDatos.vbprojResolveAssemblyReference.cache
+C:\Facultad\diploma\Stock\StockDatos\obj\Debug\Interop.Office.dll
+C:\Facultad\diploma\Stock\StockDatos\obj\Debug\StockDatos.vbproj.ResolveComReference.cache
+C:\Facultad\diploma\Stock\StockDatos\obj\Debug\StockDatos.Resources.resources
+C:\Facultad\diploma\Stock\StockDatos\obj\Debug\StockDatos.vbproj.GenerateResource.Cache
+C:\Facultad\diploma\Stock\StockDatos\obj\Debug\StockDatos.dll
+C:\Facultad\diploma\Stock\StockDatos\obj\Debug\StockDatos.xml
+C:\Facultad\diploma\Stock\StockDatos\obj\Debug\StockDatos.pdb

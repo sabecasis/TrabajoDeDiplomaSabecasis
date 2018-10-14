@@ -1,0 +1,4 @@
+﻿usuario=SuperAdmin
+password=SuperAdminMMddYYYY (Ejemplo: SuperAdmin5312014 o SuperAdmin512014 [no incluye los ceros a la izquierda])
+
+El nombre de la base de datos es stock_db

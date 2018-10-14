@@ -1,0 +1,208 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{45A5894F-511A-4A0F-A639-58BC521031AB}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <RootNamespace>StockControladorAccion</RootNamespace>
+    <AssemblyName>StockControladorAccion</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <MyType>Windows</MyType>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <DefineDebug>true</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DocumentationFile>StockControladorAccion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <DefineDebug>false</DefineDebug>
+    <DefineTrace>true</DefineTrace>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DocumentationFile>StockControladorAccion.xml</DocumentationFile>
+    <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionExplicit>On</OptionExplicit>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionCompare>Binary</OptionCompare>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionStrict>Off</OptionStrict>
+  </PropertyGroup>
+  <PropertyGroup>
+    <OptionInfer>On</OptionInfer>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+  </ItemGroup>
+  <ItemGroup>
+    <Import Include="Microsoft.VisualBasic" />
+    <Import Include="System" />
+    <Import Include="System.Collections" />
+    <Import Include="System.Collections.Generic" />
+    <Import Include="System.Data" />
+    <Import Include="System.Diagnostics" />
+    <Import Include="System.Linq" />
+    <Import Include="System.Xml.Linq" />
+    <Import Include="System.Threading.Tasks" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AbrirComprobanteIngresoAccion.vb" />
+    <Compile Include="ActualizarEmpleadoAccion.vb" />
+    <Compile Include="BuscarDepositoAccion.vb" />
+    <Compile Include="BuscarDescuentoAccion.vb" />
+    <Compile Include="BuscarEgresoStockAccion.vb" />
+    <Compile Include="BuscarFamiliaProductoAccion.vb" />
+    <Compile Include="BuscarGrupoAccion.vb" />
+    <Compile Include="BuscarIdiomaAccion.vb" />
+    <Compile Include="BuscarIngresoDeStockAccion.vb" />
+    <Compile Include="BuscarMarcaAccion.vb" />
+    <Compile Include="BuscarMonedaAccion.vb" />
+    <Compile Include="BuscarMovimientoDeStockAccion.vb" />
+    <Compile Include="BuscarPedidoDeStockAccion.vb" />
+    <Compile Include="BuscarProductoAccion.vb" />
+    <Compile Include="BuscarProveedorAccion.vb" />
+    <Compile Include="BuscarRolAccion.vb" />
+    <Compile Include="BuscarSucursalAccion.vb" />
+    <Compile Include="BuscarUsuarioAccion.vb" />
+    <Compile Include="CalcularCostoEstandarAccion.vb" />
+    <Compile Include="CalcularFaltantesDeStockAccion.vb" />
+    <Compile Include="CalcularPrecioVentaAccion.vb" />
+    <Compile Include="CambiarPasswordAccion.vb" />
+    <Compile Include="EliminarFamiliaProductoAccion.vb" />
+    <Compile Include="EliminarIdiomaAccion.vb" />
+    <Compile Include="EliminarPedidoDeStockAccion.vb" />
+    <Compile Include="GenerarEgresoPorReglaDeComposicionAccion.vb" />
+    <Compile Include="GenerarVerificadoresHorizontalesAccion.vb" />
+    <Compile Include="GenerarVerificadoresVerticalesAccion.vb" />
+    <Compile Include="GuardarEnBitacoraAccion.vb" />
+    <Compile Include="GuardarFamiliaProductoAccion.vb" />
+    <Compile Include="GuardarPedidoDeStockAccion.vb" />
+    <Compile Include="ObtenerInstanciasDeProductoConFiltroAccion.vb" />
+    <Compile Include="ObtenerTodosLosErroresConFiltroAccion.vb" />
+    <Compile Include="ObtenerTodosLosIngresosPorPedidoDeStockAccion.vb" />
+    <Compile Include="ObtenerTodosLosMovimientosDeStockConFiltroAccion.vb" />
+    <Compile Include="CrearBackcupAccion.vb" />
+    <Compile Include="CrearEmpleadoAccion.vb" />
+    <Compile Include="CrearIdiomaAccion.vb" />
+    <Compile Include="DescargarArchivoAccion.vb" />
+    <Compile Include="EliminarDepositoAccion.vb" />
+    <Compile Include="EliminarDescuentoAccion.vb" />
+    <Compile Include="EliminarEgresoDeStockAccion.vb" />
+    <Compile Include="EliminarEmpleadoAccion.vb" />
+    <Compile Include="EliminarGrupoAccion.vb" />
+    <Compile Include="EliminarMarcaAccion.vb" />
+    <Compile Include="EliminarMonedaAccion.vb" />
+    <Compile Include="EliminarMovimientoDeStockAccion.vb" />
+    <Compile Include="EliminarProductoAccion.vb" />
+    <Compile Include="EliminarProveedorAccion.vb" />
+    <Compile Include="EliminarRolAccion.vb" />
+    <Compile Include="EliminarIngresoStockAccion.vb" />
+    <Compile Include="EliminarSucursalAccion.vb" />
+    <Compile Include="EliminarUsuarioAccion.vb" />
+    <Compile Include="GestionarIdiomaYCulturaActualAccion.vb" />
+    <Compile Include="GuardarDepositoAccion.vb" />
+    <Compile Include="GuardarDescuentoAccion.vb" />
+    <Compile Include="GuardarEgresoDeStockAccion.vb" />
+    <Compile Include="GuardarGrupoAccion.vb" />
+    <Compile Include="GuardarIngresoStockAccion.vb" />
+    <Compile Include="GuardarMarcaAccion.vb" />
+    <Compile Include="GuardarMonedaAccion.vb" />
+    <Compile Include="GuardarMovimientoDeStockAccion.vb" />
+    <Compile Include="GuardarProductoAccion.vb" />
+    <Compile Include="GuardarProveedorAccion.vb" />
+    <Compile Include="GuardarRolAccion.vb" />
+    <Compile Include="GuardarSucursalAccion.vb" />
+    <Compile Include="GuardarUsuarioAccion.vb" />
+    <Compile Include="HacerBackupAccion.vb" />
+    <Compile Include="LoginAccion.vb" />
+    <Compile Include="ObtenerBitacoraAccion.vb" />
+    <Compile Include="ObtenerDepositosPorProductoAccion.vb" />
+    <Compile Include="ObtenerEmpleadoPorNroAccion.vb" />
+    <Compile Include="ObtenerEmpleadoPorNroODNIAccion.vb" />
+    <Compile Include="ObtenerTodasLasExistenciasDeStockAccion.vb" />
+    <Compile Include="ObtenerTodasLasInstanciasProductoParaEgresoAccion.vb" />
+    <Compile Include="ObtenerTodasMateriasPrimasAccion.vb" />
+    <Compile Include="ObtenerTodosAccion.vb" />
+    <Compile Include="GuardarPuestosAccion.vb" />
+    <Compile Include="My Project\AssemblyInfo.vb" />
+    <Compile Include="My Project\Application.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Application.myapp</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Resources.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="My Project\Settings.Designer.vb">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="ObtenerProximoNroEmpleadoAccion.vb" />
+    <Compile Include="ObtenerTodosLosMovimientosDeStockNoAceptadosAccion.vb" />
+    <Compile Include="ObtenerTodosLosPedidosNoIngresadosPorDepositoAccion.vb" />
+    <Compile Include="RestaurarBackupAccion.vb" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="My Project\Resources.resx">
+      <Generator>VbMyResourcesResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.vb</LastGenOutput>
+      <CustomToolNamespace>My.Resources</CustomToolNamespace>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="My Project\Application.myapp">
+      <Generator>MyApplicationCodeGenerator</Generator>
+      <LastGenOutput>Application.Designer.vb</LastGenOutput>
+    </None>
+    <None Include="My Project\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <CustomToolNamespace>My</CustomToolNamespace>
+      <LastGenOutput>Settings.Designer.vb</LastGenOutput>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ElementosTransversales\ElementosTransversales.vbproj">
+      <Project>{e13a8481-b82e-4ad7-b4d9-e53efe6c4785}</Project>
+      <Name>ElementosTransversales</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockDatos\StockDatos.vbproj">
+      <Project>{2f5d35b1-e567-4de9-91c0-8dbb4d2b07de}</Project>
+      <Name>StockDatos</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\StockModelo\StockModelo.vbproj">
+      <Project>{df4da45e-d72d-4b2e-827c-218eb6015857}</Project>
+      <Name>StockModelo</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.VisualBasic.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

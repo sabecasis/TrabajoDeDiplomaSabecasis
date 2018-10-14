@@ -1,0 +1,12 @@
+C:\Facultad\diploma\Stock\ElementosTransversales\bin\Debug\ElementosTransversales.dll
+C:\Facultad\diploma\Stock\ElementosTransversales\bin\Debug\ElementosTransversales.pdb
+C:\Facultad\diploma\Stock\ElementosTransversales\bin\Debug\ElementosTransversales.xml
+C:\Facultad\diploma\Stock\ElementosTransversales\bin\Debug\StockModelo.dll
+C:\Facultad\diploma\Stock\ElementosTransversales\bin\Debug\StockModelo.pdb
+C:\Facultad\diploma\Stock\ElementosTransversales\bin\Debug\StockModelo.xml
+C:\Facultad\diploma\Stock\ElementosTransversales\obj\Debug\ElementosTransversales.vbprojResolveAssemblyReference.cache
+C:\Facultad\diploma\Stock\ElementosTransversales\obj\Debug\ElementosTransversales.Resources.resources
+C:\Facultad\diploma\Stock\ElementosTransversales\obj\Debug\ElementosTransversales.vbproj.GenerateResource.Cache
+C:\Facultad\diploma\Stock\ElementosTransversales\obj\Debug\ElementosTransversales.dll
+C:\Facultad\diploma\Stock\ElementosTransversales\obj\Debug\ElementosTransversales.xml
+C:\Facultad\diploma\Stock\ElementosTransversales\obj\Debug\ElementosTransversales.pdb
